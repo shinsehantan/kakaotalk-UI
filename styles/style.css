@@ -1,0 +1,114 @@
+
+    *{margin:0; padding:0;}
+
+        li {
+            list-style: none;
+            text-align: center;
+        }
+
+    #wrap{
+    display:flex;
+    flex-flow:row wrap;
+    width:80%; 
+    height : 600px;
+    margin:0 auto;
+    }
+
+    .left {
+        display : flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 13%;
+        height: 100%;
+        background:#ececed;
+    }
+
+    .left_top {
+        background :#ECECED;
+    }
+
+    .left_top li {
+        padding : 10px;
+        font-size: 25px;
+        color:#C7C8CA;
+    }
+
+
+    .left_bottom {
+        background :#ECECED;
+        padding:20px;
+    }
+
+    .left_bottom li{
+        padding:5px;
+        font-size: 20px;
+    }
+
+    .right {
+        display:flex;
+        flex-direction: column;
+        width: 87%;
+        height: 100%;
+        background:white;
+    }
+
+    .right_top{
+        background:white;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .right_top ul{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        color:black;
+        font-weight: bold;
+        font-size:20px;
+        padding:10px;
+        width:100%;
+    }
+
+    .right_middle{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        padding-left: 10px;
+        background:#ececed;
+        height:5%;
+        border-radius: 20px;
+    }
+
+    .right_bottom{
+        background:white;
+        height: 85%;
+    }
+
+    .right_bottom{
+        display:flex;
+        flex-direction: column;
+        font-size:15px;
+    }
+
+    .me {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        height : 10%;
+        padding-left: 10px;
+    }
+    .others {
+        height : 90%;
+    }
+
+    .others ul{
+        display:flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: flex-start;
+        padding-left:10px;
+        background:white;
+        justify-content: space-between;
+    }
+    
